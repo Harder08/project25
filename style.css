@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p, span {
+    color: rgb(122, 122, 122);
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+    text-align: center;
+}
+
+.content {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    background: url(/media/planet-7680x4320-8k-16849.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 70px;
+    gap: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.box {
+    display: flex;
+    width: 380px;
+    gap: 20px;
+    position: absolute;
+    color: black;
+}
+
+.left {
+    flex-direction: row-reverse;
+    left: -327px;
+}
+
+.top {
+    top: 84px;
+}
+
+.bottom {
+    bottom: 84px;
+}
+
+.right {
+    right: -327px;
+}
+.discribe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.left .discribe {
+    align-items: flex-end;
+    text-align: end;
+}
